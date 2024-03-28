@@ -43,6 +43,8 @@
 
   footer {
     font-size: 10px;
+    text-align: center;
+    background-color: rgb(148, 215, 212);
   }
 
 .image{
