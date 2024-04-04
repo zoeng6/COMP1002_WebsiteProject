@@ -81,26 +81,6 @@
     </footer>
 
 	
-  <script>
-    var orderForm = document.getElementById('orderForm');
-
-    orderForm.addEventListener('submit', function(event) {
-      event.preventDefault();
-
-      // Retrieve form values
-      var SKU = orderForm.elements['SKU'].value;
-      var quantity = orderForm.elements['Quantity'].value;
-      var deliveryDate = orderForm.elements['Date'].value;
-      var postalCode = orderForm.elements['Postal Code'].value;
-
-      // Perform order processing or validation here
-      // For demonstration purposes, we'll display an alert with the form values
-      alert('Order Submitted:\n\nSKU: ' + SKU + '\nQuantity: ' + quantity + '\nDelivery Date: ' + deliveryDate + '\nPostal Code: ' + postalCode);
-
-      // Reset form fields
-      orderForm.reset();
-    });
-  </script>
 
 	
 </body>
