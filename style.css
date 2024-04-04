@@ -43,11 +43,13 @@
     line-height: 1.5;
   }
 
-  footer {
-    font-size: 10px;
-    text-align: center;
-    background-color: rgb(148, 215, 212);
-  }
+footer {
+  flex-shrink: 0;
+  font-size: 10px;
+  text-align: center;
+  background-color: rgb(148, 215, 212);
+  padding: 10px;
+}
 
 .image{
     display:  flex;
